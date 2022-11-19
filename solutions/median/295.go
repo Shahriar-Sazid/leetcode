@@ -1,8 +1,7 @@
-package main
+package median
 
 import (
 	"container/heap"
-	"fmt"
 )
 
 // An MaxHeap is a min-heap of ints.
@@ -83,7 +82,39 @@ func (this *MedianFinder) AddNum(num int) {
 	} else {
 		heap.Push(this.left, num)
 	}
+	this.Balance()
+}
 
+func (this *MedianFinder) Remove(num int) {
+	if num > this.left.Root() {
+		temp := make([]int, 0, this.right.Len())
+		for {
+			x := heap.Pop(this.right)
+			if num == x {
+				break
+			}
+			temp = append(temp, x.(int))
+		}
+		for _, x := range temp {
+			heap.Push(this.right, x)
+		}
+	} else {
+		temp := make([]int, 0, this.left.Len())
+		for {
+			x := heap.Pop(this.left)
+			if num == x {
+				break
+			}
+			temp = append(temp, x.(int))
+		}
+		for _, x := range temp {
+			heap.Push(this.left, x)
+		}
+	}
+	this.Balance()
+}
+
+func (this *MedianFinder) Balance() {
 	if this.left.Len() > this.right.Len()+1 {
 		heap.Push(this.right, heap.Pop(this.left))
 	}
@@ -101,12 +132,12 @@ func (this *MedianFinder) FindMedian() float64 {
 	}
 }
 
-func main() {
-	mf := Constructor()
-	mf.AddNum(1)
-	mf.AddNum(2)
-	fmt.Println("Median", mf.FindMedian())
+// func main() {
+// 	mf := Constructor()
+// 	mf.AddNum(1)
+// 	mf.AddNum(2)
+// 	fmt.Println("Median", mf.FindMedian())
 
-	mf.AddNum(3)
-	fmt.Println("Median", mf.FindMedian())
-}
+// 	mf.AddNum(3)
+// 	fmt.Println("Median", mf.FindMedian())
+// }
