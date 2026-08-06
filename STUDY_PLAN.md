@@ -9,15 +9,15 @@ then Hard-only.
 
 | | Count |
 |---|---|
-| Sessions done | **3 / 48** |
-| Unique problems done | **3 / 40** |
-| Current focus | Week 1 Day 3 — Trapping Rain Water (42) |
+| Sessions done | **6 / 48** |
+| Unique problems done | **5 / 40** |
+| Current focus | Week 2 Day 3 — Reverse Linked List (206) |
 
 Mark a session `[x]` when the corresponding `solutions/<n>.go` is written and
 you've spent the session (Easy/Medium: solved; Hard Day 1: attempted/dry-run;
 Hard Day 2: finished). Update the counts above when you check boxes.
 
-**Done so far:** Two Sum (1) · Group Anagrams (49) · Valid Anagram (242)
+**Done so far:** Two Sum (1) · Group Anagrams (49) · Valid Anagram (242) · Trapping Rain Water (42) · Valid Parentheses (20)
 
 ## Time budget by difficulty
 
@@ -39,14 +39,14 @@ week boundary). Total: **48 sessions** → ~10 Easy, ~22 Medium, ~8 Hard
 |---|---|---|---|---|---|
 | [x] | 1 | Arrays & Hashing | Two Sum (1) | Easy | `solutions/1.go` |
 | [x] | 2 | Arrays & Hashing | Group Anagrams (49) | Medium | `solutions/49.go` |
-| [ ] | 3 | Two Pointers (Day 1) | Trapping Rain Water (42) | Hard | `solutions/42.go` |
+| [x] | 3 | Two Pointers (Day 1) | Trapping Rain Water (42) | Hard | `solutions/42.go` |
 
 ### Week 2 — Finish Hard + Stack + Linked List
 
 | Done | Day | Topic | Problem | Difficulty | File |
 |---|---|---|---|---|---|
-| [ ] | 1 | Two Pointers (Day 2) | Trapping Rain Water (42) — finish/debug | Hard | `solutions/42.go` |
-| [ ] | 2 | Stack | Valid Parentheses (20) | Easy | `solutions/20.go` |
+| [x] | 1 | Two Pointers (Day 2) | Trapping Rain Water (42) — finish/debug | Hard | `solutions/42.go` |
+| [x] | 2 | Stack | Valid Parentheses (20) | Easy | `solutions/20.go` |
 | [ ] | 3 | Linked List | Reverse Linked List (206) | Easy | `solutions/206.go` |
 
 ### Week 3 — Sliding Window, Two Pointers, Search
@@ -65,7 +65,7 @@ week boundary). Total: **48 sessions** → ~10 Easy, ~22 Medium, ~8 Hard
 | [ ] | 2 | Two Pointers | 3Sum (15) | Medium | `solutions/15.go` |
 | [ ] | 3 | Linked List | Remove Nth Node From End of List (19) | Medium | `solutions/19.go` |
 
-**Month 1 mix:** Easy ×5 · Medium ×5 · Hard ×1 · **Progress: 3 / 12 sessions**
+**Month 1 mix:** Easy ×5 · Medium ×5 · Hard ×1 · **Progress: 6 / 12 sessions**
 
 ---
 
