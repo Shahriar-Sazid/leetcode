@@ -9,15 +9,15 @@ then Hard-only.
 
 | | Count |
 |---|---|
-| Sessions done | **6 / 48** |
-| Unique problems done | **5 / 40** |
-| Current focus | Week 2 Day 3 — Reverse Linked List (206) |
+| Sessions done | **10 / 48** |
+| Unique problems done | **9 / 40** |
+| Current focus | Week 4 Day 2 — 3Sum (15) |
 
 Mark a session `[x]` when the corresponding `solutions/<n>.go` is written and
 you've spent the session (Easy/Medium: solved; Hard Day 1: attempted/dry-run;
 Hard Day 2: finished). Update the counts above when you check boxes.
 
-**Done so far:** Two Sum (1) · Group Anagrams (49) · Valid Anagram (242) · Trapping Rain Water (42) · Valid Parentheses (20)
+**Done so far:** Two Sum (1) · Group Anagrams (49) · Valid Anagram (242) · Trapping Rain Water (42) · Valid Parentheses (20) · Reverse Linked List (206) · Longest Substring Without Repeating Chars (3) · Search in Rotated Sorted Array (33) · Valid Palindrome (125)
 
 ## Time budget by difficulty
 
@@ -47,25 +47,25 @@ week boundary). Total: **48 sessions** → ~10 Easy, ~22 Medium, ~8 Hard
 |---|---|---|---|---|---|
 | [x] | 1 | Two Pointers (Day 2) | Trapping Rain Water (42) — finish/debug | Hard | `solutions/42.go` |
 | [x] | 2 | Stack | Valid Parentheses (20) | Easy | `solutions/20.go` |
-| [ ] | 3 | Linked List | Reverse Linked List (206) | Easy | `solutions/206.go` |
+| [x] | 3 | Linked List | Reverse Linked List (206) | Easy | `solutions/206.go` |
 
 ### Week 3 — Sliding Window, Two Pointers, Search
 
 | Done | Day | Topic | Problem | Difficulty | File |
 |---|---|---|---|---|---|
 | [x] | 1 | Strings | Valid Anagram (242) | Easy | `solutions/242.go` |
-| [ ] | 2 | Sliding Window | Longest Substring Without Repeating Chars (3) | Medium | `solutions/3.go` |
-| [ ] | 3 | Binary Search | Search in Rotated Sorted Array (33) | Medium | `solutions/33.go` |
+| [x] | 2 | Sliding Window | Longest Substring Without Repeating Chars (3) | Medium | `solutions/3.go` |
+| [x] | 3 | Binary Search | Search in Rotated Sorted Array (33) | Medium | `solutions/33.go` |
 
 ### Week 4 — Two Pointers, Linked List, Intervals
 
 | Done | Day | Topic | Problem | Difficulty | File |
 |---|---|---|---|---|---|
-| [ ] | 1 | Two Pointers | Valid Palindrome (125) | Easy | `solutions/125.go` |
+| [x] | 1 | Two Pointers | Valid Palindrome (125) | Easy | `solutions/125.go` |
 | [ ] | 2 | Two Pointers | 3Sum (15) | Medium | `solutions/15.go` |
 | [ ] | 3 | Linked List | Remove Nth Node From End of List (19) | Medium | `solutions/19.go` |
 
-**Month 1 mix:** Easy ×5 · Medium ×5 · Hard ×1 · **Progress: 6 / 12 sessions**
+**Month 1 mix:** Easy ×5 · Medium ×5 · Hard ×1 · **Progress: 10 / 12 sessions**
 
 ---
 
